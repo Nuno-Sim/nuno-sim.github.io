@@ -2,176 +2,266 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuno's Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="assets/logos/NS_logo.jpeg" />
-    <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('3MA_uAWub5XtKS61k');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function () {
-                        console.log('SUCCESS!');
-                    }, function (error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
+
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Nuno Simoes's Portfolio Website, Computer Science student at the Univeristy of Guelph">
+
+   <title>Nuno Simoes | Portfolio</title>
+
+   <link rel="stylesheet" href="/nuno-sim.github.io/styles.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+
+   <script src="https://kit.fontawesome.com/a9df6eb2e8.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div id="navbar">
-        <div id="page-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#footer">Contact</a>
-        </div>
-    </div>
 
-    <div id="home">
-        <h1>Nuno Simoes</h1>
-        <h2>University of Guelph, Computer Science</h2>
-    </div>
+   <header class="header">
+      <div class="header-container container h-100">
 
-    <div id="main">
-        <div id="about">
-            <div class="section-header">
-                <h2>About</h2>
-                <hr>
+         <a class="header-logo" href="#">Nuno Simoes</a>
+
+         <nav class="header-nav">
+            <div class="header-links hide-on-mobile h-100">
+               <a href="#about">About</a>
+               <a href="#experience">Experience</a>
+               <a href="#education">Education</a>
+               <a href="#projects">Projects</a>
+               <a href="./uploads/Nuno Simoes Resume.pdf" target="_blank">Resume</a>
             </div>
 
-            <div id="about-container">
-                <div class="about-child">
-                    <h2>About Me</h2>
-                    <hr>
-
-                    <p>
-                        My name is Nuno and I study Computer Science at The University of Guelph. Through my studies,
-                        I have gained a strong understanding of programming languages like C and Java.
-                        I am eager to continue my education and growth as a programmer as I work towards earning my
-                        degree.
-                    </p>
-                </div>
-                <div class="about-child">
-                    <h2>Education</h2>
-                    <hr>
-
-                    <p>
-                        Major in Computer Science (Co-op)
-                        <br> Minor in Applied Geomatics<br>
-                    </p>
-                    <img id="edu-image" src="assets/logos/UofGLogo.png" />
-                </div>
-                <div class="about-child">
-                    <h2>Languages</h2>
-                    <hr>
-
-                    <div id="languages">
-                        <p>C</p>
-                        <p>Java</p>
-                        <p>HTML/CSS</p>
-                        <p>Javascript</p>
-                        <p>SQLite</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="projects">
-            <div class="section-header">
-                <h2>Projects</h2>
-                <hr>
+            <div class="header-menu-toggle hide-on-desktop h-100">
+               <i class="fas fa-bars fa-lg"></i>
             </div>
 
-            <!-- Project 1 -->
-            <div class="project">
+         </nav>
+      </div>
+   </header>
 
-                <div class="proj-image">
-                    <img src="assets/projects/PersonalWebsite.png" />
-                </div>
+   <main>
 
-                <div class="proj-info">
-                    <h2>Portfolio Website | 2022</h2>
+      <section id="about">
+         <div class="container">
 
-                    <span class="tech-box">HTML</span>
-                    <span class="tech-box">CSS</span>
-                    <span class="tech-box">Javascript</span>
-
-
-                    <p>
-                        Developed my own personal website to showcase my projects and skills to the world.
-                        Throughout developing this project I learned the basics of HTML/CSS and Javascript.
-                    </p>
-                    <a href="." target="_blank">View Code</a>
-                </div>
+            <div id="profile-picture">
+               <img src="./assets/images/NS_logo.jpeg" alt="Profile Picture">
             </div>
 
-            <!-- Project 2 -->
-            <div class="project">
-                <div class="proj-image">
-                    <img src="assets/projects/ComingSoon.png" />
-                </div>
+            <p>Hi, my name is Nuno and I am a 3rd year Computer Science (Co-op) student at the University of Guelph.</p>
 
-                <div class="proj-info">
-                    <h2>COMING SOON | XXXX</h2>
-                    <span class="tech-box">Coming Soon</span>
-                    <p>
-                        Coming Soon.
-                    </p>
-                    <a href="." target="_blank">Coming Soon</a>
-                </div>
+         </div>
+      </section>
+
+      <section id="experience">
+         <div class="container">
+
+            <!-- Looking for job -->
+            <h1>Experience</h1>
+            <div class="experience-grid">
+
+               <div class="experience-item">
+                  <div class="experience-icon">
+                     <img src="assets/images/smiley_face.png" alt="tulip">
+                  </div>
+                  <div class="experience-details flex-col">
+                     <div class="experience-header">
+                        <h3>Looking for a Summer 2024 Internship!</h3>
+                        <div class="experience-date flex">4 Month Summer Term</div>
+                     </div>
+                     <div class="experience-loc">Your Company</div>
+                     <div class="button-container">
+                        <a class="button" <a href="mailto:nsimoes@uoguelph.ca"</a> Contact me!</a>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- UofG Student IT Technitian -->
+               <div class="experience-item">
+                  <div class="experience-icon">
+                     <img src="assets/images/UofGLogo.png" alt="wave">
+                  </div>
+                  <div class="experience-details flex-col">
+                     <div class="experience-header">
+                        <h3>Student IT Technician (Co-op)</h3>
+                        <div class="experience-date flex">September 2023 - December 2023</div>
+                     </div>
+                     <div class="experience-loc">Univeristy of Guelph</div>
+
+                     <div class="button-container">
+                        <a class="button" onclick="openModal()">See work term report</a>
+                     </div>
+
+                     <div id="myModal" class="modal">
+                        <div class="modal-content">
+                           <!-- Work term report information goes here -->
+                           <h1>Introduction</h1>
+                           <p>This is the work term report
+                              informationjhdbakwjhdbahjbdjkahbdjaldbahkjbdhabdjkahhbdajhkbdahjadhbasjkhdbkajhsbdhj.</p>
+                           <h1>Information about the Employer</h1>
+                           <p>This is the work term report information.</p>
+                           <h1>Job Description</h1>
+                           <p>This is the work term report information.</p>
+                           <h1>Goals</h1>
+                           <p>This is the work term report information.</p>
+                           <h1>Conclusions</h1>
+                           <h1>Acknowledgements</h1>
+                           <span class="close" onclick="closeModal()">&times;</span>
+                        </div>
+                     </div>
+                     <script src="scripts.js"></script>
+
+
+
+                  </div>
+               </div>
             </div>
-        </div>
+         </div>
+      </section>
 
-        <!-- Contact Me -->
+      <section id="education">
+         <div class="container">
 
-        <div id="contact">
-            <div class="section-header">
-                <h2>Contact Me</h2>
-                <hr>
+            <h1>Education</h1>
+            <div class="experience-item">
+               <div class="experience-icon">
+                  <img src="assets/images/UofGLogo.png" alt="uog">
+               </div>
+               <div class="experience-details flex-col">
+                  <div class="experience-header">
+                     <h3>Bachelor of Computing, Computer Science </h3>
+                     <div class="experience-date flex">September 2021 - Present</div>
+                  </div>
+                  <div class="experience-loc">University of Guelph</div>
+               </div>
             </div>
 
-            <!-- <form id="contact-form">
-                <input type="hidden" name="contact_number">
-                <label>Name</label>
-                <input type="text" name="user_name">
-                <label>Email</label>
-                <input type="email" name="user_email">
-                <label>Message</label>
-                <textarea name="message"></textarea>
-                <input type="submit" value="Send"> -->
-            <!-- </form> -->
-            
-        </div>
+         </div>
+      </section>
 
-    </div>
+      <section id="projects">
+         <div class="container">
+
+            <h1>Projects</h1>
+            <div class="project-grid">
+
+               <div class="project-card">
+                  <div class="project-content">
+                     <div class="project-header">
+                        <h3>Spendy</h3>
+                        <a href="https://github.com/Harsh-Topi/spendy">
+                           <i class="fab fa-github fa-lg"></i>
+                        </a>
+                     </div>
+                     <p>A chrome extension that automatically tracks purchases and budgets, alerting users if they go
+                        over their spending limits</p>
+                     <div class="project-stack">
+                        <div>JavaScript</div>
+                        <div>React</div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="project-card">
+                  <div class="project-content">
+                     <div class="project-header">
+                        <h3>GPX Data Viewer</h3>
+                        <a href="https://github.com/ngeldvis/GPX-Data-Viewer">
+                           <i class="fab fa-github fa-lg"></i>
+                        </a>
+                     </div>
+                     <p>Full stack web application to parse, and view GPX file information and store that information in
+                        a database</p>
+                     <div class="project-stack">
+                        <div>C</div>
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>Node.js</div>
+                        <div>MySQL</div>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="project-card">
+                  <div class="project-content">
+                     <div class="project-header">
+                        <h3>2048</h3>
+                        <a href="https://github.com/ngeldvis/2048">
+                           <i class="fab fa-github fa-lg"></i>
+                        </a>
+                     </div>
+                     <p>Simple recreation of the popular game 2048 made in Python using pygame</p>
+                     <div class="project-stack">
+                        <div>Python</div>
+                        <div>Pygame</div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="project-card">
+                  <div class="project-content">
+                     <div class="project-header">
+                        <h3>2048</h3>
+                        <a href="https://github.com/ngeldvis/2048">
+                           <i class="fab fa-github fa-lg"></i>
+                        </a>
+                     </div>
+                     <p>Simple recreation of the popular game 2048 made in Python using pygame</p>
+                     <div class="project-stack">
+                        <div>Python</div>
+                        <div>Pygame</div>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="project-card">
+                  <div class="project-content">
+                     <div class="project-header">
+                        <h3>2048</h3>
+                        <a href="https://github.com/ngeldvis/2048">
+                           <i class="fab fa-github fa-lg"></i>
+                        </a>
+                     </div>
+                     <p>Simple recreation of the popular game 2048 made in Python using pygame</p>
+                     <div class="project-stack">
+                        <div>Python</div>
+                        <div>Pygame</div>
+                     </div>
+                  </div>
+               </div>
 
 
 
-    <div id="footer">
-        <a href="https://github.com/Nuno-Sim" target="_blank"><img class="footer-image"
-                src="assets/logos/Github_Logo.png" /></a>
-        <a href="https://www.linkedin.com/in/nunosimoess/" target="_blank"><img class="footer-image"
-                src="assets/logos/Linkedin_Logo.png" /></a>
 
-        <p>Nuno Simoes</p>
-        <p3>Updated Jan 2023</p3>
-    </div>
-    </div>
+            </div>
+         </div>
+      </section>
+
+   </main>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-logo">
+            <h2>Nuno Simoes</h2>
+         </div>
+         <div class="code">@ 2024 Nuno Simoes / <a href="mailto:nsimoes@uoguelph.ca">nsimoes@uoguelph.ca</a></div>
+      </div>
+   </footer>
+
 </body>
 
 </html>
