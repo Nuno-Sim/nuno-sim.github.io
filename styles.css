@@ -42,6 +42,10 @@ h2 {
   font-size: 32px;
 }
 
+#experience h2{
+   font-size: 20px;
+}
+
 h3 {
   font-size: 20px;
 }
@@ -229,16 +233,13 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.project-grid .project-card {
+
+#projects .project-card {
   background-color: #f7f7f7;
-  position: relative;
   transition: 0.5s;
-  overflow: hidden;
+  overflow: hidden; 
 }
-/* .project-card {
-   width: 300;
-   height: 300;
-}  */
+
 
  .project-card:hover{
    transform: translateY(-5px) scale(1.005) translateZ(0);
@@ -382,11 +383,10 @@ footer {
    object-fit: cover;
 }
 
-.modal {
+#experience .modal {
    display: none;
    position: fixed;
    overflow: auto;
-   /* word-wrap: break-word; */
    top: 0;
    left: 0;
    width: 100%;
@@ -396,7 +396,7 @@ footer {
 
 
 
- .modal-content {
+#experience .modal-content {
    position: absolute;
    top: 50%;
    left: 50%;
@@ -405,9 +405,16 @@ footer {
    padding: 20px;
    border-radius: 5px;
    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   max-height: 80%; /* Adjust this value as needed */
+   overflow-y: auto;
 }
 
-.modal-content h1, p {
+#experience .modal-content img {
+   height: 350px;
+   align-items: center;
+}
+
+#experience .modal-content h1,h2, p {
    text-align: center;
 }
 
@@ -415,7 +422,7 @@ footer {
 .close {
    position: absolute;
    top: 10px;
-   right: 10px;
+   right: 25px;
    font-size: 20px;
    font-weight: bold;
    cursor: pointer;
