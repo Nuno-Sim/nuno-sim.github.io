@@ -66,82 +66,24 @@
 
       <section id="experience">
          <div class="container">
+
+            <!-- Looking for job -->
             <h1>Experience</h1>
             <div class="experience-grid">
 
-                  <!-- Looking for job -->
                <div class="experience-item">
                   <div class="experience-icon">
                      <img src="assets/images/smiley_face.png" alt="tulip">
                   </div>
                   <div class="experience-details flex-col">
                      <div class="experience-header">
-                        <h3>Looking for a Winter 2024 - Summer 2025 Internship!</h3>
-                        <div class="experience-date flex">4/8 Month Summer Term</div>
+                        <h3>Looking for a Summer 2024 Internship!</h3>
+                        <div class="experience-date flex">4 Month Summer Term</div>
                      </div>
                      <div class="experience-loc">Your Company</div>
                      <div class="button-container">
                         <a class="button" <a href="mailto:nsimoes@uoguelph.ca" </a> Contact me!</a>
                      </div>
-                  </div>
-               </div>
-
-               <!-- UofG Student IT Technitian part 2!-->
-               <div class="experience-item">
-                  <div class="experience-icon">
-                     <img src="assets/images/UofGLogo.png" alt="wave">
-                  </div>
-                  <div class="experience-details flex-col">
-                     <div class="experience-header">
-                        <h3>Student IT Technician (Co-op)</h3>
-                        <div class="experience-date flex">May 2024 - August 2024</div>
-                     </div>
-                     <div class="experience-loc">Univeristy of Guelph</div>
-
-                     <div class="button-container">
-                        <a class="button" onclick="openModal('modal2')">See work term report</a>
-                     </div>
-
-                     <div id="modal2" class="modal">
-                        <div class="modal-content">
-                           <!-- Work term report information goes here -->
-                           <h1>Introduction</h1>
-                           <p>IP</p>
-
-                           <h1>Information about the Employer</h1>
-                           <p>During this term I worked for the Computing and Communication Services (CCS) department at
-                              the Univeristy of Guelph (UofG). More specifically, I worked for the Managed Desktops (MD)
-                              team. This team provides technical support for all computers enrolled in the service
-                              including software and hardware issues. </p>
-
-                           <h3>Interesting Facts</h3>
-                           <li>Managed Desktops manages over 10,000 computers under the UofG Domain</li>
-                           <li>University of Guelph is the largest employer in Guelph</li>
-                           <li>University of Guelph has seven colleges and three campuses</li>
-
-                           <h1>Job Description</h1>
-                           <p>WIP</p>
-
-                           <h1>Goals</h1>
-
-                           <h2>Oral Communication</h2>
-                           <p>IP</p>
-
-                           <h2>Technological Literacy</h2>
-                           <p>IP</p>
-
-                           <h2>Personal Organization</h2>
-                           <p>IP</p>
-
-                           <h1>Conclusions</h1>
-                           <p>IP </p>
-
-                           <h1>Acknowledgements</h1>
-                           <p>IP</p>
-                           <span class="close" onclick="closeModal('modal2')">&times;</span>
-                        </div>
-                     </div>
-                     <script src="scripts.js"></script>
                   </div>
                </div>
 
@@ -158,10 +100,10 @@
                      <div class="experience-loc">Univeristy of Guelph</div>
 
                      <div class="button-container">
-                        <a class="button" onclick="openModal('modal1')">See work term report</a>
+                        <a class="button" onclick="openModal()">See work term report</a>
                      </div>
 
-                     <div id="modal1" class="modal">
+                     <div id="myModal" class="modal">
                         <div class="modal-content">
                            <!-- Work term report information goes here -->
                            <h1>Introduction</h1>
@@ -224,7 +166,7 @@
                               supporting, and hard working people that I get the luxury to now call my friends. I also
                               learned alot about myself like
                               that in my free time I love to cook and I am secretly a nutrition nerd! </p>
-                           <img src="./assets/images/WT1_GroupPhoto.JPG" alt="Group Photo of Co-workers">
+                              <img src="./assets/images/WT1_GroupPhoto.JPG" alt="Group Photo of Co-workers">
 
                            <h1>Acknowledgements</h1>
                            <p>I would like to give a special thanks to my supervisors Brian Thomson and Haniya Saleh for
@@ -232,14 +174,15 @@
                               field was limited. I learned a lot throughout this 4-month work term and I wish them all
                               the
                               best aswell.</p>
-                           <span class="close" onclick="closeModal('modal1')">&times;</span>
+                           <span class="close" onclick="closeModal()">&times;</span>
                         </div>
                      </div>
                      <script src="scripts.js"></script>
+
+
+
                   </div>
                </div>
-
-
             </div>
          </div>
       </section>
