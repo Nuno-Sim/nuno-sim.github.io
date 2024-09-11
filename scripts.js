@@ -1,9 +1,11 @@
-function openModal() {
-   var modal = document.getElementById("myModal");
-   modal.style.display = "block";
+function openModal(modalId) {
+   document.getElementById(modalId).style.display = "block";
+   document.body.style.overflow = "hidden"; //prevents scrolling
+
 }
 
-function closeModal() {
-   var modal = document.getElementById("myModal");
-   modal.style.display = "none";
+function closeModal(modalId) {
+   document.getElementById(modalId).style.display = "none";
+   document.body.style.overflow = "auto"; //re-enables scrolling
+
 }
