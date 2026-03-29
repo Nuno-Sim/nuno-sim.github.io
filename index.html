@@ -810,8 +810,13 @@ function renderQuestion() {
     list.appendChild(item);
   });
 
+  // Clear feedback bar before rendering new question
+  document.getElementById('feedback-bar').className='feedback-bar';
+
   // Restore previous state if revisiting
   if(st.answered || st.selectedKey) {
+    // Clear any existing selected classes first
+    document.querySelectorAll('.choice-item').forEach(c=>c.classList.remove('selected'));
     const prevSelected=document.querySelector(`.choice-item[data-key="${st.selectedKey}"]`);
     if(prevSelected) prevSelected.classList.add('selected');
   }
@@ -888,7 +893,11 @@ document.getElementById('check-btn').addEventListener('click',()=>{
 
 // Next button — advance or finish
 document.getElementById('next-btn').addEventListener('click',()=>{
-  // If feedback on and answered but not checked, just move on without scoring
+  // Mark answered questions as checked (for scoring purposes)
+  const st=questionStates[currentIdx];
+  if(st.answered && !st.checked) {
+    st.checked=true;
+  }
   const isLast=currentIdx===activeQuestions.length-1;
   if(isLast){showResults();}
   else{currentIdx++;renderQuestion();}
@@ -1008,7 +1017,10 @@ function showResults() {
   });
   const total=activeQuestions.length;
   const pct=total>0?Math.round((score/total)*100):0;
-  const wrong=questionStates.filter(s=>s.checked&&s.selectedKey&&s.selectedKey!==activeQuestions[questionStates.indexOf(s)]?.correctAnswer).length;
+  
+  // Calculate wrong answers correctly using index mapping
+  const wrong=questionStates.filter((st,i)=>st.checked&&st.selectedKey&&st.selectedKey!==activeQuestions[i].correctAnswer).length;
+  
   const flaggedCount=questionStates.filter(s=>s.flagged).length;
   const skipped=questionStates.filter(s=>!s.answered).length;
   const m=Math.floor(secondsElapsed/60), s=secondsElapsed%60;

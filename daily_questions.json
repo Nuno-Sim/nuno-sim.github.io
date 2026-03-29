@@ -110,7 +110,7 @@
           "questions": [
             {
               "id": 1,
-              "question": "Which of the following statement(s) about the SN1 mechanism is/are correct?\nI. The transition state contains a pentacoordinate carbon species\nII. The \"1\" in SN1 indicates that the mechanism involves a single reaction step and exhibits second-order kinetics\nIII. This reaction mechanism is characterized by partial or complete racemization at a stereogenic reaction center and exhibits first-order kinetics\nIV. This reaction mechanism is favored by tertiary substrates",
+              "question": "Which of the following statement(s) about the SN1 mechanism are correct?\nI. The transition state contains a pentacoordinate carbon species\nII. The \"1\" in SN1 indicates that the mechanism involves a single reaction step and exhibits second-order kinetics\nIII. This reaction mechanism is characterized by partial or complete racemization at a stereogenic reaction center and exhibits first-order kinetics\nIV. This reaction mechanism is favored by tertiary substrates",
               "choices": {
                 "A": "I and II",
                 "B": "III and IV",
@@ -135,10 +135,10 @@
               "question": "If 45.1 grams of a solute is added to 302 grams of water to make a 0.65M solution, what is the molar mass of a solute?",
               "choices": {
                 "A": "45.1g/0.302mol",
-                "B": "(0.65(.302)g)/45.1mol",
+                "B": "(0.65).302g)/45.1mol",
                 "C": "45.1g/0.65mol",
                 "D": "0.65g/0.302mol",
-                "E": "45.1g/(0.65(.302)mol)"
+                "E": "45.1g/(0.65).302mol"
               },
               "correctAnswer": "E"
             }
