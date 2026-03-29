@@ -17,6 +17,18 @@
                 "E": "Triglycerides - glycogenolysis"
               },
               "correctAnswer": "B"
+            },
+            {
+                "id": 2,
+                "question": "Which germ layer of the human embryo gives rise to the lining of the esophagus?",
+                "choices": {
+                    "A": "Ectoderm",
+                    "B": "Mesoderm",
+                    "C": "Endoderm",
+                    "D": "Neurula",
+                    "E": "Placenta"
+                },
+                "correctAnswer": "C"
             }
           ]
         },
@@ -116,19 +128,19 @@
       "name": "General Chemistry",
       "subsections": [
         {
-          "name": "Unknown",
+          "name": "General",
           "questions": [
             {
               "id": 1,
-              "question": "XXXXXX",
+              "question": "If 45.1 grams of a solute is added to 302 grams of water to make a 0.65M solution, what is the molar mass of a solute?",
               "choices": {
-                "A": "ToBeChanged",
-                "B": "ToBeChanged",
-                "C": "ToBeChanged",
-                "D": "ToBeChanged",
-                "E": "ToBeChanged"
+                "A": "45.1g/0.302mol",
+                "B": "(0.65(.302)g)/45.1mol",
+                "C": "45.1g/0.65mol",
+                "D": "0.65g/0.302mol",
+                "E": "45.1g/(0.65(.302)mol)"
               },
-              "correctAnswer": "CHANGEME"
+              "correctAnswer": "E"
             }
           ]
         }
