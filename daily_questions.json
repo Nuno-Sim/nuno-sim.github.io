@@ -1,0 +1,454 @@
+{
+  "sections": [
+    {
+      "name": "Biology",
+      "subsections": [
+        {
+          "name": "Cell and Molecular Biology",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which of the following molecules is correctly linked with its direct catabolic process?",
+              "choices": {
+                "A": "Glucose - gluconeogenesis",
+                "B": "Fatty acids - beta-oxidation",
+                "C": "Steroids - urea cycle",
+                "D": "Amino acids - glycolysis",
+                "E": "Triglycerides - glycogenolysis"
+              },
+              "correctAnswer": "B"
+            }
+          ]
+        },
+        {
+          "name": "Diversity of Life",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Structure and Function of Systems",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Genetics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Evolution and Ecology",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organic Chemistry",
+      "subsections": [
+        {
+          "name": "Chemical Synthesis",
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which of the following statement(s) about the SN1 mechanism is/are correct?\nI. The transition state contains a pentacoordinate carbon species\nII. The \"1\" in SN1 indicates that the mechanism involves a single reaction step and exhibits second-order kinetics\nIII. This reaction mechanism is characterized by partial or complete racemization at a stereogenic reaction center and exhibits first-order kinetics\nIV. This reaction mechanism is favored by tertiary substrates",
+              "choices": {
+                "A": "I and II",
+                "B": "III and IV",
+                "C": "I and III",
+                "D": "II and IV",
+                "E": "I and IV"
+              },
+              "correctAnswer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Chemistry",
+      "subsections": [
+        {
+          "name": "Unknown",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "subsections": [
+        {
+          "name": "Units and Vectors",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Linear Kinematics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Statics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Dynamics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Rotational Motion",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Energy and Momentum",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Simple Harmonic Motion",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Waves",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Fluid Statics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Thermodynamics and Thermal Energy",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Electrostatics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "D.C. Circuits",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Optics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantitative Reasoning",
+      "subsections": [
+        {
+          "name": "Algebra",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Data Analysis, Interpretation, and Sufficiency",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Quantitative Comparison",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Probability and Statistics",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        },
+        {
+          "name": "Applied Mathematics (Word) Problems",
+          "questions": [
+            {
+              "id": 1,
+              "question": "XXXXXX",
+              "choices": {
+                "A": "ToBeChanged",
+                "B": "ToBeChanged",
+                "C": "ToBeChanged",
+                "D": "ToBeChanged",
+                "E": "ToBeChanged"
+              },
+              "correctAnswer": "CHANGEME"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
