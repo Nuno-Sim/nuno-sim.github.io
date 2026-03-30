@@ -165,8 +165,8 @@
         "choices": {
           "A": "Chemical energy from the glucose molecule made by plants during photosynthesis",
           "B": "The chemical energy released by the numerous hydrolytic reactions in a cell",
-          "C": "Light energy from the sun",
-          "D": "Heat energy from the sun",
+          "C": "Heat energy from the sun",
+          "D": "Light energy from the sun",
           "E": "ATP made in the mitochondria of both plants and animals"
         },
         "correctAnswer": "C"
@@ -1277,6 +1277,7 @@
         "id": 5,
 
         "question": "Referring to the data plotted in the figure, what is the acceleration between time 0 and 5 s?",
+        "image": "ADA_Images/Physics5.png",
         "choices": {
           "A": "+2 m/s^2",
           "B": "+25 m/s^2",
@@ -1302,6 +1303,7 @@
         "id": 7,
 
         "question": "Which diagram best represents the velocity as function of the time of a ball thrown vertically upward?",
+        "image": "ADA_Images/Physics7.png",
         "choices": {
           "A": "Graph A",
           "B": "Graph B",
@@ -1405,7 +1407,8 @@
       {
         "id": 15,
 
-        "question": "A massless rod is free to rotate about an axis through point 0. To maintain equilibrium based on the provided sketch (100 N force at 3m), which of the following must force F at 5m equal?",
+        "question": "A massless rod in the sketch below is free to rotate about an axis through point 0, at the right end of the rod. To maintain equilibrium, which of the following must force F, in Newtons, equal?",
+        "image": "ADA_Images/Physics15.png",
         "choices": {
           "A": "20",
           "B": "40",
@@ -1418,7 +1421,7 @@
       {
         "id": 16,
 
-        "question": "A ball is thrown horizontally at 20m/s from the top of a building and strikes the level ground 50 m from the building. Approximately how many meters high is the roof of the building?",
+        "question": "A ball is thrown horizontally at 20 m/s from the top of a building and strikes the level ground 50 m from the building. Approximately how many meters high is the roof of the building?",
         "choices": {
           "A": "12.5 m",
           "B": "24.5 m",
@@ -1509,13 +1512,13 @@
       {
         "id": 23,
 
-        "question": "An AM radio station broadcasts at a frequency of 600 kHz. If these waves have a speed of 3x10^8 m/s then what is their wavelength in meters?",
+        "question": "An AM radio station broadcasts at a frequency of 600 kHz. If these waves have a speed of 3 x 10^8 m/s then what is their wavelength in meters?",
         "choices": {
           "A": ".0020",
           "B": "500",
           "C": "5,000,000",
-          "D": "1.80x10^11",
-          "E": "1.80x10^14"
+          "D": "1.80 x 10^1^1",
+          "E": "1.80 x 10^1^4"
         },
         "correctAnswer": "B"
       },
@@ -1535,7 +1538,7 @@
       {
         "id": 25,
 
-        "question": "A uniform block of mass 180 g that is 10x9x3 cm is to be placed in a liquid of density 0.900 g/cm^3. The block will",
+        "question": "A uniform block of mass 180 g that is 10 x 9 x 3 cm is to be placed in a liquid of density 0.900 g/cm^3. The block will",
         "choices": {
           "A": "sink in the liquid.",
           "B": "just float in the liquid with none of its volume above the surface.",
@@ -1548,13 +1551,13 @@
       {
         "id": 26,
 
-        "question": "The water in a swimming pool is 3.0 m deep. During the day, the atmospheric pressure increases by 2.0x10^3 N/m^2. During this same period, the pressure at the bottom of the pool will",
+        "question": "The water in a swimming pool is 3.0 m deep. During the day, the atmospheric pressure increases by 2.0 x 10^3 N/m^2. During this same period, the pressure at the bottom of the pool in N/m^2will",
         "choices": {
           "A": "not change.",
-          "B": "increase by 1.0x10^7.",
-          "C": "increase by 6.0x10^3.",
-          "D": "increase by 6.0x10^4.",
-          "E": "increase by 2.0x10^3"
+          "B": "increase by 1.0 x 10^7.",
+          "C": "increase by 6.0 x 10^3.",
+          "D": "increase by 6.0 x 10^4.",
+          "E": "increase by 2.0 x 10^3"
         },
         "correctAnswer": "E"
       },
@@ -1600,7 +1603,8 @@
       {
         "id": 30,
 
-        "question": "An object initially moving with speed 5 m/s has acceleration -2 m/s^2. Which graph represents velocity vs time?",
+        "question": "An object initially moving with speed 5 m/s has acceleration -2 m/s^2. Which of the following graphs best represents the object’s velocity as a function of time?",
+        "image" : "ADA_Images/Physics30.png",
         "choices": {
           "A": "Graph A",
           "B": "Graph B",
@@ -1608,7 +1612,7 @@
           "D": "Graph D",
           "E": "Graph E"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "C"
       },
       {
         "id": 31,
@@ -1652,7 +1656,8 @@
       {
         "id": 34,
 
-        "question": "A negatively charged insulator is brought near to, without touching, the left side of a uncharged, solid metal sphere. Which figure best describes the charge distribution?",
+        "question": "A negatively charged insulator is brought near to, without touching, the left side of a uncharged, solid metal sphere. Which of the following figures best describes the charge distribution on the sphere with the insulator held in place?",
+        "image": "ADA_Images/Physics34.png",
         "choices": {
           "A": "Figure A",
           "B": "Figure B",
@@ -1660,12 +1665,12 @@
           "D": "Figure D",
           "E": "Figure E"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "E"
       },
       {
         "id": 35,
 
-        "question": "A 12-volt battery with an internal resistance of 1 ohm is connected to a 3 ohm resistor. Which of the following is the current in amperes?",
+        "question": "A 12-volt battery with an internal resistance of 1 Ω is connected to a 3 Ω resistor. Which of the following is the current in amperes?",
         "choices": {
           "A": "4",
           "B": "3",
@@ -1679,6 +1684,7 @@
         "id": 36,
 
         "question": "Where in the circuit should a voltmeter be placed to measure the voltage across R3?",
+        "image": "ADA_Images/Physics36.png",
         "choices": {
           "A": "From point a to point b",
           "B": "From point c to point d",
@@ -1731,6 +1737,7 @@
         "id": 40,
 
         "question": "Six identical bulbs are connected to a battery as shown. What is the correct ranking of the brightness of the bulbs?",
+        "image": "ADA_Images/Physics40.png",
         "choices": {
           "A": "1=4>5=6>2=3",
           "B": "5=6>1=4>2=3",
@@ -1738,7 +1745,7 @@
           "D": "1=4>5=6=2=3",
           "E": "1=2=3=4=5=6"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "B"
       }
     ]
   },
@@ -1852,13 +1859,13 @@
       {
         "id": 9,
 
-        "question": "If an electron has a mass of 9.709x10^-31 kg, and a proton has a mass of 1.672x10^-27 kg, approximately how many electrons are required to have the same mass as one proton?",
+        "question": "If an electron has a mass of 9.709 x 10^-^3^1 kg, and a proton has a mass of 1.672 x 10^-^2^7 kg, approximately how many electrons are required to have the same mass as one proton?",
         "choices": {
           "A": "150,000",
           "B": "1,800",
-          "C": "5.4x10^4",
-          "D": "5.4x10^-4",
-          "E": "15x10^-58"
+          "C": "5.4 x 10^4",
+          "D": "5.4 x 10^-^4",
+          "E": "15 x 10^-^5^8"
         },
         "correctAnswer": "B"
       },
@@ -1878,7 +1885,7 @@
       {
         "id": 11,
 
-        "question": "An investment at 16% compounded annually grows to $1,740 at the end of the year. How much was originally invested?",
+        "question": "An investment is made at r percent compounded annually, at the end of n years it will have grown to A = P(1+r)^n. An investment made at 16% compoundedannually. It grows to $1,740 at the end of theyear. How much was originally invested?",
         "choices": {
           "A": "$150",
           "B": "$278.40",
@@ -1891,7 +1898,7 @@
       {
         "id": 12,
 
-        "question": "What is 1/4% of 200?",
+        "question": "What is 1/4 % of 200?",
         "choices": {
           "A": "0.05",
           "B": "0.5",
@@ -1948,15 +1955,15 @@
           "A": "x=3",
           "B": "y=3",
           "C": "x=y",
-          "D": "x=y/3",
-          "E": "y=x/3"
+          "D": "x= y/3",
+          "E": "y= x/3"
         },
         "correctAnswer": "A"
       },
       {
         "id": 17,
 
-        "question": "Which represents the weekly payroll for: hygienist ($H/week), assistant (36 hrs @ $A/hr), and receptionist ($R every other week)?",
+        "question": "The dental hygienist at a certain office is paid H dollars a week. The dental assistant works 36 hours a week at A dollars per hour, and the receptionist works 40 hours a week and receives R dollars every other week. Which of the following represents the weekly payroll for these three employees??",
         "choices": {
           "A": "H/3 + 36A + 40R/3",
           "B": "H + 36A + R/2",
@@ -1969,13 +1976,13 @@
       {
         "id": 18,
 
-        "question": "The value of cos(pi/3) equals the value of",
+        "question": "The value of cos π/3 equals the value of",
         "choices": {
-          "A": "-cos(2pi/3).",
-          "B": "cos(2pi/3).",
-          "C": "cos(6pi/3).",
-          "D": "-cos(5pi/3)",
-          "E": "cos(4pi/3)."
+          "A": "-cos 2π/3.",
+          "B": "cos 2π/3.",
+          "C": "cos 6π/3.",
+          "D": "-cos 5π/3",
+          "E": "cos 4π/3."
         },
         "correctAnswer": "A"
       },
@@ -1995,7 +2002,7 @@
       {
         "id": 20,
 
-        "question": "Which of the following is the value of A, if 50(A/100) = 2A^2?",
+        "question": "Which of the following is the value of A, if  (50) A/100 = 2A^2?",
         "choices": {
           "A": "25",
           "B": "1",
@@ -2021,20 +2028,20 @@
       {
         "id": 22,
 
-        "question": "If x pens costs 75 cents and y pencils cost 57 cents, find the cost of 2 pens and 3 pencils.",
+        "question": "If x pens costs 75 cents and y pencils cost 57 cents, then which equation below can be used to find the cost of 2 pens and 3 pencils.",
         "choices": {
-          "A": "2(75/x)+3(57/y)",
+          "A": "(2) 75/x + (3) 57/y",
           "B": "3x/75 + 2y/57",
           "C": "75/2x + 57/3y",
-          "D": "2(x/75) + 3(y/57)",
-          "E": "3(75/x) + 2(57/y)"
+          "D": "(2) x/75 + (3) y/57",
+          "E": "(3) 75/x + (2) 57/y"
         },
         "correctAnswer": "A"
       },
       {
         "id": 23,
 
-        "question": "Evaluate the expression: (|14-3|-|7-16|) / (3|(-2)+1|)",
+        "question": "Evaluate the expression: |14-3|-|7-16| / 3|(-2)+1|",
         "choices": {
           "A": "-20/3",
           "B": "-2/3",
@@ -2047,7 +2054,7 @@
       {
         "id": 24,
 
-        "question": "A tank can be filled in 30 minutes and emptied in 50 minutes. How many minutes will it take to fill if both pipes are open?",
+        "question": "A tank can be filled by a pipe in 30 minutes and emptied by another pipe in 50 minutes. How many minutes will it take to fill the tank if both pipes are open?",
         "choices": {
           "A": "45",
           "B": "60",
@@ -2060,7 +2067,7 @@
       {
         "id": 25,
 
-        "question": "If (4/5)x = (2/5)y then what is equal to y/x?",
+        "question": "If 4/5 (x) = 2/5 (y) then what is equal to y/x?",
         "choices": {
           "A": "1/2",
           "B": "2/5",
@@ -2099,7 +2106,7 @@
       {
         "id": 28,
 
-        "question": "Applicants decreased by 25%. Openings increased by 12%. If the original ratio was 3:1, what is the approximate final ratio?",
+        "question": "Optometry school applicants decreased by 25% during a 4-year period. During the same time, the number of first-year openings in optometry school increased by 12%. If the ratio of applicants to first-year student openings had been 3 to 1, then which of the following would be the approximate ratio at the end of the 4-year period?",
         "choices": {
           "A": "1.5 to 1",
           "B": "2 to 1",
@@ -2125,7 +2132,7 @@
       {
         "id": 30,
 
-        "question": "Two cars travel north and west at 24 and 32 mph. How far apart are they after 2 hours?",
+        "question": "Two cars start at the same point and travel north and west at the rate of 24 and 32 mph respectively. How far apart are they at the end of 2 hours?",
         "choices": {
           "A": "64",
           "B": "80",
@@ -2144,14 +2151,14 @@
           "B": "6",
           "C": "27",
           "D": "33",
-          "E": "3*sqrt(3)"
+          "E": "3 sqrt(3)"
         },
         "correctAnswer": "E"
       },
       {
         "id": 32,
 
-        "question": "Each side of a square increases by 1 yard; the new area is 53 sq yards more than the original. What was the original side length?",
+        "question": "When each of the sides of a square is increased by 1 yard, the area of the new square is 53 square yards more than that of the original square. What is the length of the sides of the original square?",
         "choices": {
           "A": "25",
           "B": "26",
@@ -2177,7 +2184,8 @@
       {
         "id": 34,
 
-        "question": "Find the length of line segment BC, if AB=14, AD=5 and angle BAD=30 degrees.",
+        "question": "Which of the following is the length of the line segment BC, if AB = 14, AD = 5 and angle BAD = 30^o",
+        "image": "ADA_Images/Q_math_34.png",
         "choices": {
           "A": "sqrt(221)",
           "B": "sqrt(171)",
@@ -2203,7 +2211,7 @@
       {
         "id": 36,
 
-        "question": "Maria has dimes and quarters totaling < $9.00. There are twice as many dimes as quarters. At most, how many quarters could she have?",
+        "question": "Maria has a number of dimes and quarters whose total value is less than $9.00. There are twice as many dimes as quarters. At most, how many quarters could she have?",
         "choices": {
           "A": "14",
           "B": "15",
@@ -2216,7 +2224,7 @@
       {
         "id": 37,
 
-        "question": "The numbers (1,2,3,6) have a mean of 3 and variance of 3.5. What is the mean and variance of (3,6,9,18)?",
+        "question": "The numbers (1,2,3,6) have an average (arithmetic mean) of 3 and a variance of 3.5. What is the average (arithmetic mean) and variance of the set of numbers (3,6,9,18)?",
         "choices": {
           "A": "9, 31.5",
           "B": "3, 10.5",
@@ -2229,7 +2237,7 @@
       {
         "id": 38,
 
-        "question": "A 6x7 foot ceiling costs $52 to paint. Find the cost of painting an 18x21 foot ceiling.",
+        "question": "A ceiling 6 feet by 7 feet can be painted for $52. Find the cost of painting a ceiling 18 feet by 21 feet, all things being equal except the dimensions.",
         "choices": {
           "A": "$104",
           "B": "$126",
@@ -2242,7 +2250,7 @@
       {
         "id": 39,
 
-        "question": "A container (10x9x2 feet) is filled with liquid weighing 100 pounds per cubic foot. What is the weight of the liquid?",
+        "question": "A container in the form of a rectangular solid is 10 feet long, 9 feet wide, and 2 feet deep. The container is filled with a liquid weighing 100 pounds per cubic foot. What is the weight of the liquid in the container in pounds?",
         "choices": {
           "A": "90",
           "B": "180",
@@ -2255,7 +2263,7 @@
       {
         "id": 40,
 
-        "question": "It takes 5 hours to complete a report. It is now 9:55 a.m. Coffee break starts at 10:15 a.m. How much of the task is done by then?",
+        "question": "it takes 5 hours for a qualified typist tocomplete a report. Coffee break begins at10:15 a.m. It is now 9:55 a.m. How much ofthe task can the typist be expected tocomplete by the coffee break?",
         "choices": {
           "A": "1/8",
           "B": "1/25",

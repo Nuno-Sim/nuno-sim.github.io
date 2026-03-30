@@ -761,9 +761,12 @@ function formatChemistry(text) {
 
   // Any remaining bare / between word tokens (e.g. K = A / B)
   // (don't convert slashes inside already-converted spans)
+  // Skip m/s and m/s^n (units)
   s = s.replace(/(\S+)\s*\/\s*(\S+)/g, (match, num, den) => {
     // Skip if already part of an HTML tag
     if (num.includes('<') || den.includes('<')) return match;
+    // Skip m/s, m/s^2, etc. (meter per second and derivatives)
+    if ((num === 'm' || num === 'M') && (den[0] === 's' || den[0] === 'S')) return match;
     return buildFrac(inlineFormat(num), inlineFormat(den));
   });
 
@@ -778,6 +781,7 @@ function inlineFormat(s) {
   s = s.replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>');
   s = s.replace(/\^(\d+)/g, '<sup>$1</sup>');
   s = s.replace(/\^([+-])/g, '<sup>$1</sup>');
+  s = s.replace(/\^([a-zA-Z]+)/g, '<sup>$1</sup>');
 
   // Chemical subscripts: letter(s) followed by digit(s) that aren't already in a tag
   // e.g. H2O → H<sub>2</sub>O, HCl stays (no digit), Cl2 → Cl<sub>2</sub>
@@ -837,10 +841,6 @@ function renderQuestion() {
     applyFeedbackVisuals(st.selectedKey,q.correctAnswer);
     showFeedbackBar(st.selectedKey,q);
     lockChoices();
-  } else if(st.answered && !showFeedback) {
-    lockChoicesNeutral(st.selectedKey);
-  } else if(st.answered) {
-    lockChoicesNeutral(st.selectedKey);
   }
 
   // Flag button
