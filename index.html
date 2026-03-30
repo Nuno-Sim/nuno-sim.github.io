@@ -270,6 +270,14 @@
     .flagged-result-item{background:var(--surface);border:1px solid rgba(246,173,85,.25);border-radius:10px;padding:.75rem 1rem;margin-bottom:.5rem;font-size:.82rem;}
     .flagged-result-item strong{color:var(--amber);font-family:'DM Mono',monospace;font-size:.7rem;display:block;margin-bottom:.2rem;}
     .flagged-result-item span{color:var(--subtle);}
+    .wrong-answers{width:100%;max-width:520px;margin-bottom:2rem;text-align:left;}
+    .wrong-answers-title{font-family:'DM Mono',monospace;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem;}
+    .wrong-answer-item{background:var(--surface);border:1px solid rgba(245,101,101,.25);border-radius:10px;padding:.75rem 1rem;margin-bottom:.75rem;font-size:.82rem;}
+    .wrong-answer-item strong{color:var(--red);font-family:'DM Mono',monospace;font-size:.7rem;display:block;margin-bottom:.3rem;}
+    .wrong-answer-item .question-text{color:var(--text);margin-bottom:.5rem;line-height:1.4;}
+    .wrong-answer-item .answer-row{display:flex;gap:.5rem;margin-bottom:.3rem;}
+    .wrong-answer-item .answer-row .label{color:var(--muted);font-family:'DM Mono',monospace;font-size:.65rem;min-width:3rem;}
+    .wrong-answer-item .answer-row .content{color:var(--subtle);flex:1;}
     .results-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center;}
 
     @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
@@ -291,6 +299,7 @@
 
 <!-- ═══ HOME ═══ -->
 <div id="home-screen" class="screen active">
+  <a href="2006_OAT.pdf" download class="download-btn">📥 Ada Test Download</a>
   <div class="logo-area">
     <h1>OAT <em>Prep</em></h1>
   </div>
@@ -480,6 +489,10 @@
   <div class="flagged-results" id="flagged-results-wrap" style="display:none;">
     <div class="flagged-results-title">Flagged Questions</div>
     <div id="flagged-results-list"></div>
+  </div>
+  <div class="wrong-answers" id="wrong-answers-wrap" style="display:none;">
+    <div class="wrong-answers-title">Incorrect Answers</div>
+    <div id="wrong-answers-list"></div>
   </div>
   <div class="results-actions">
     <button class="nav-btn btn-ghost" id="back-home-btn">Back to Home</button>
@@ -1051,6 +1064,32 @@ function showResults() {
       </div>
     `).join('');
   } else { fWrap.style.display='none'; }
+
+  // Wrong answers list
+  const wrongItems=questionStates.map((s,i)=>({...s,idx:i})).filter(s=>s.checked&&s.selectedKey&&s.selectedKey!==activeQuestions[s.idx].correctAnswer);
+  const wWrap=document.getElementById('wrong-answers-wrap');
+  if(wrongItems.length){
+    wWrap.style.display='block';
+    document.getElementById('wrong-answers-list').innerHTML=wrongItems.map(s=>{
+      const q=activeQuestions[s.idx];
+      const userAnswerKey=s.selectedKey;
+      const correctKey=q.correctAnswer;
+      return `
+        <div class="wrong-answer-item">
+          <strong>Q${s.idx+1} — ${q.section}</strong>
+          <div class="question-text">${formatChemistry(q.question)}</div>
+          <div class="answer-row">
+            <div class="label">Your answer:</div>
+            <div class="content"><strong>${userAnswerKey}.</strong> ${formatChemistry(q.choices[userAnswerKey])}</div>
+          </div>
+          <div class="answer-row">
+            <div class="label">Correct:</div>
+            <div class="content"><strong>${correctKey}.</strong> ${formatChemistry(q.choices[correctKey])}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  } else { wWrap.style.display='none'; }
 
   showScreen('results-screen');
   setTimeout(()=>{
