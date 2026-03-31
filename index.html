@@ -842,6 +842,7 @@ function renderQuestion() {
     showFeedbackBar(st.selectedKey,q);
     lockChoices();
   }
+  // When feedback is OFF, choices should always remain interactive (never lock)
 
   // Flag button
   updateFlagBtn();
@@ -859,9 +860,14 @@ function renderQuestion() {
 
 function selectChoice(item,key) {
   const st=questionStates[currentIdx];
-  if(st.answered && st.checked) return; // locked after check
+  // When feedback is ON, lock after check. When feedback is OFF, always allow re-selection.
+  if(showFeedback && st.answered && st.checked) return;
   document.querySelectorAll('.choice-item').forEach(c=>c.classList.remove('selected'));
   item.classList.add('selected');
+  // If feedback is off and answer was previously checked, reset so new answer gets scored
+  if(!showFeedback && st.checked) {
+    st.checked=false;
+  }
   st.selectedKey=key;
   if(!st.answered){st.answered=true; updateNavGrid();}
   updateActionButtons();
