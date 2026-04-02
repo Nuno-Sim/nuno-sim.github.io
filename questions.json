@@ -169,7 +169,7 @@
           "D": "Light energy from the sun",
           "E": "ATP made in the mitochondria of both plants and animals"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "D"
       },
       {
         "id": 15,
@@ -526,7 +526,7 @@
           "D": "Empirical formula",
           "E": "Molar mass of the compound"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "D"
       },
       {
         "id": 45,
@@ -728,7 +728,7 @@
           "D": "Decomposition",
           "E": "Disproportionation"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "A"
       },
       {
         "id": 62,
@@ -985,7 +985,7 @@
           "C": "CH3OCH3",
           "D": "CH3Cl"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "D"
       },
       {
         "id": 83,
@@ -1024,7 +1024,7 @@
           "D": "Ethane",
           "E": "Propane"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "C"
       },
       {
         "id": 86,
@@ -1037,7 +1037,7 @@
           "D": "6",
           "E": "7"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "E"
       },
       {
         "id": 87,
@@ -1125,7 +1125,7 @@
           "C": "sp3",
           "D": "sp3d2"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "C"
       },
       {
         "id": 94,
@@ -1176,7 +1176,7 @@
           "D": "D",
           "E": "E"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "A"
       },
       {
         "id": 98,
@@ -1189,7 +1189,7 @@
           "D": "D",
           "E": "E"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "B"
       },
       {
         "id": 99,
