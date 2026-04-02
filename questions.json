@@ -485,11 +485,11 @@
         "id": 41,
         "question": "A sample of gold weighing 38.6 g was added to a graduated cylinder containing 23.00 mL of water. The volume of the water plus the gold was 25.00 mL. What is the density of gold?",
         "choices": {
-          "A": "0.0518 g·mL^-1",
-          "B": "2.00 g·mL^-1",
-          "C": "19.3 g·mL^-1",
-          "D": "38.6 g·mL^-1",
-          "E": "1540 g·mL^-1"
+          "A": "0.0518 g·mL^-^1",
+          "B": "2.00 g·mL^-^1",
+          "C": "19.3 g·mL^-^1",
+          "D": "38.6 g·mL^-^1",
+          "E": "1540 g·mL^-^1"
         },
         "correctAnswer": "C"
       },
@@ -532,13 +532,14 @@
         "id": 45,
         "question": "A 10.0 liter sample of oxygen at 100°C and 1 atm is cooled to 27°C and expanded until the pressure is 0.5 atm. Find the final volume of the oxygen.",
         "choices": {
-          "A": "(10.0)(1/5)(27/100)",
-          "B": "(10.0)(1/5)(373/300)",
-          "C": "(10.0)(.5/1)(373/300)",
-          "D": "(10.0)(1/.5)(300/373)",
-          "E": "(10.0)(.5/1)(300/373)"
+          "A": "(10.0) (1/5) (27/100)",
+          "B": "(10.0) (1/5) (373/300)",
+          "C": "(10.0) (.5/1) (373/300)",
+          "D": "(10.0) (1/.5) (300/373)",
+          "E": "(10.0) (.5/1) (300/373)"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "D",
+        "skipChemistryFormat": true
       },
       {
         "id": 46,
@@ -577,7 +578,7 @@
       },
       {
         "id": 49,
-        "question": "The molar volume of copper (63.5 g·mol^-1) at 25°C is 7.09 cm^3·mol^-1. Which of the following is the density of copper at 25°C in g·cm^3?",
+        "question": "The molar volume of copper (63.5 g·mol<sup>-1</sup>) at 25°C is 7.09 cm<sup>3</sup>·mol<sup>-1</sup>. Which of the following is the density of copper at 25°C in g·cm<sup>3</sup>?",
         "choices": {
           "A": "(63.5)/(7.09)",
           "B": "(63.5)(7.09)",
@@ -585,7 +586,8 @@
           "D": "7.09",
           "E": "((63.5)/(7.09))(25)"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "A",
+        "skipChemistryFormat": true
       },
       {
         "id": 50,
@@ -620,7 +622,8 @@
           "D": "((1,000-400)) (0.5/0.6)",
           "E": "(0.6/0.5) ((1,000 - 400))"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "B",
+        "skipChemistryFormat": true
       },
       {
         "id": 53,
@@ -656,7 +659,8 @@
           "D": "H2O(g) -> H2O(s)",
           "E": "H2O(s) -> H2O(g)"
         },
-        "correctAnswer": "E"
+        "correctAnswer": "E",
+        "skipChemistryFormat": true
       },
       {
         "id": 56,
@@ -829,11 +833,11 @@
         "id": 70,
         "question": "In the nuclear reaction:\n14/7 N + 4/2 He -> 17/8 O + X\nThe symbol X represents which of the following?",
         "choices": {
-          "A": "2/2 He",
+          "A": "4/2 He",
           "B": "1/0 n",
           "C": "0/-1 e",
           "D": "0/+1 e",
-          "E": "4/1 H"
+          "E": "1/1 H"
         },
         "correctAnswer": "E"
       },
@@ -852,7 +856,7 @@
       },
       {
         "id": 72,
-        "question": "A characteristic feature of the SN2 reaction mechanism is that",
+        "question": "A characteristic feature of the S<sub>N</sub>2 reaction mechanism is that",
         "choices": {
           "A": "it follows first-order kinetics.",
           "B": "it produces stereochemical inversion of configuration.",
@@ -860,7 +864,8 @@
           "D": "steric factors have little influence on the reaction rate constant.",
           "E": "collision of three or more particles is required."
         },
-        "correctAnswer": "B"
+        "correctAnswer": "B",
+        "skipChemistryFormat": true
       },
       {
         "id": 73,
@@ -868,11 +873,12 @@
         "choices": {
           "A": "Mass Spectroscopy",
           "B": "Infrared Spectroscopy",
-          "C": "13C NMR Spectroscopy",
+          "C": "<sup>13</sup>C NMR Spectroscopy",
           "D": "Thin Layer Chromatography",
           "E": "Melting Point Determination"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "C",
+        "skipChemistryFormat": true
       },
       {
         "id": 74,
@@ -926,7 +932,7 @@
       },
       {
         "id": 78,
-        "question": "Which of the following does a strong infrared absorption band between 1750 and 1700 cm^-1 indicate the presence of?",
+        "question": "Which of the following does a strong infrared absorption band between 1750 and 1700 cm^-^1 indicate the presence of?",
         "image": "ADA_Images/Q78.png",
         "choices": {
           "A": "-NH2",
@@ -954,11 +960,11 @@
         "question": "Which of the compounds below would be most soluble in water?",
         "image": "ADA_Images/Q80.png",
         "choices": {
-          "A": "Pentane",
-          "B": "Bromopentane",
-          "C": "Ethyl methyl ether",
-          "D": "Butane",
-          "E": "Butanol"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E"
         },
         "correctAnswer": "E"
       },
@@ -980,10 +986,10 @@
         "question": "Which ONE of the following pure liquids would be expected to show extensive intermolecular hydrogen bonding?",
         "image": "ADA_Images/Q82.png",
         "choices": {
-          "A": "CH3OH",
-          "B": "CH3CH2CH3",
-          "C": "CH3OCH3",
-          "D": "CH3Cl"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D"
         },
         "correctAnswer": "D"
       },
@@ -992,11 +998,11 @@
         "question": "Which of the following compounds is a tertiary (3°) amine?",
         "image": "ADA_Images/Q83.png",
         "choices": {
-          "A": "N-methylaniline",
-          "B": "Methylamine",
-          "C": "Dimethylamine",
-          "D": "Trimethylamine",
-          "E": "Aniline"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E"
         },
         "correctAnswer": "D"
       },
@@ -1018,11 +1024,11 @@
         "question": "Which of the following will undergo a free radical bromination most rapidly?",
         "image": "ADA_Images/Q85.png",
         "choices": {
-          "A": "Isobutane (tertiary H)",
-          "B": "Neopentane",
-          "C": "Methane",
-          "D": "Ethane",
-          "E": "Propane"
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E"
         },
         "correctAnswer": "C"
       },
@@ -1083,7 +1089,7 @@
         "image": "ADA_Images/Q90.png",
         "choices": {
           "A": "CH3CH2OH",
-          "B": "CH3CH2COH",
+          "B": "CH3CH2CHO",
           "C": "CH3CH2CO2H",
           "D": "CH3CH2CH3",
           "E": "CH3CH2CH2Br"
@@ -1105,7 +1111,7 @@
       },
       {
         "id": 92,
-        "question": "What is the product of the following addition reaction: 1-methylcyclohexene + HBr (dark, CCl4)?",
+        "question": "What is the product of the following addition reaction?",
         "image": "ADA_Images/Q92.png",
         "choices": {
           "A": "A",
@@ -1546,12 +1552,13 @@
           "D": "float in the liquid with less than 1/3 of its volume above the surface.",
           "E": "float in the liquid with all of its volume above the surface."
         },
-        "correctAnswer": "D"
+        "correctAnswer": "D",
+        "skipChemistryFormat": true
       },
       {
         "id": 26,
 
-        "question": "The water in a swimming pool is 3.0 m deep. During the day, the atmospheric pressure increases by 2.0 x 10^3 N/m^2. During this same period, the pressure at the bottom of the pool in N/m^2will",
+        "question": "The water in a swimming pool is 3.0 m deep. During the day, the atmospheric pressure increases by 2.0 x 10^3 N/m^2. During this same period, the pressure at the bottom of the pool in N/m^2 will",
         "choices": {
           "A": "not change.",
           "B": "increase by 1.0 x 10^7.",
@@ -1976,15 +1983,16 @@
       {
         "id": 18,
 
-        "question": "The value of cos π/3 equals the value of",
+        "question": "The value of cos (π/3) equals the value of",
         "choices": {
-          "A": "-cos 2π/3.",
-          "B": "cos 2π/3.",
-          "C": "cos 6π/3.",
-          "D": "-cos 5π/3",
-          "E": "cos 4π/3."
+          "A": "-cos (2π/3).",
+          "B": "cos (2π/3).",
+          "C": "cos (6π/3).",
+          "D": "-cos (5π/3).",
+          "E": "cos (4π/3)."
         },
-        "correctAnswer": "A"
+        "correctAnswer": "A",
+        "skipChemistryFormat": true
       },
       {
         "id": 19,

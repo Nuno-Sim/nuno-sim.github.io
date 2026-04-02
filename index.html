@@ -800,7 +800,8 @@ function renderQuestion() {
   document.getElementById('q-current').textContent=currentIdx+1;
   document.getElementById('q-total').textContent=total;
   document.getElementById('q-number').textContent=`Question ${currentIdx+1}`;
-  document.getElementById('q-text').innerHTML=formatChemistry(q.question);
+  const shouldFormat=!q.skipChemistryFormat;
+  document.getElementById('q-text').innerHTML=shouldFormat?formatChemistry(q.question):q.question;
   document.getElementById('progress-fill').style.width=`${(currentIdx/total)*100}%`;
 
   // Subsection label
@@ -822,7 +823,8 @@ function renderQuestion() {
   Object.entries(q.choices).forEach(([key,val],i)=>{
     const item=document.createElement('div');
     item.className='choice-item'; item.style.animationDelay=`${i*.05}s`; item.dataset.key=key;
-    item.innerHTML=`<div class="choice-key">${key}</div><div class="choice-text">${formatChemistry(val)}</div>`;
+    const formattedChoice=shouldFormat?formatChemistry(val):val;
+    item.innerHTML=`<div class="choice-key">${key}</div><div class="choice-text">${formattedChoice}</div>`;
     item.addEventListener('click',()=>selectChoice(item,key));
     list.appendChild(item);
   });
