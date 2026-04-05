@@ -2016,7 +2016,7 @@
         Promise.all([
             fetch('questions.json').then(r => r.json()).catch(() => []),
             fetch('daily_questions.json').then(r => r.json()).catch(() => null),
-            fetch('Clara_questions.json').then(r => r.json()).catch(() => null)
+            fetch('clara_questions.json').then(r => r.json()).catch(() => null)
         ]).then(([ada, daily, clara]) => {
             adaData = ada || []; dailyData = daily || null;
             // Clara_questions.json is a flat list under "extracted_questions".
