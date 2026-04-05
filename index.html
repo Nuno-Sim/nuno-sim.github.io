@@ -260,6 +260,10 @@
             background: var(--accent);
         }
 
+        #src-clara.active .src-dot {
+            background: var(--red);
+        }
+
         .source-btn:hover:not(.active) {
             color: var(--subtle);
         }
@@ -1738,6 +1742,9 @@
             <button class="source-btn" id="src-daily" onclick="switchSource('daily')">
                 <span class="src-dot"></span>Daily Questions
             </button>
+            <button class="source-btn" id="src-clara" onclick="switchSource('clara')">
+                <span class="src-dot"></span>Clara's Review
+            </button>
         </div>
 
         <div class="section-grid" id="section-grid"></div>
@@ -1974,7 +1981,7 @@
         const COLORS = { 'Survey of the Natural Sciences': 'rgba(62,207,142,.15)', 'Physics': 'rgba(91,141,238,.15)', 'Quantitative Reasoning': 'rgba(246,173,85,.15)', 'Organic Chemistry': 'rgba(139,110,247,.15)', 'General Chemistry': 'rgba(245,101,101,.15)' };
 
         // ─── STATE ───────────────────────────────────────────────────────────────────
-        let adaData = [], dailyData = null, activeSource = 'ada';
+        let adaData = [], dailyData = null, claraData = null, activeSource = 'ada';
         let activeQuestions = [];   // flat array for current section only (OAT) or all (free)
         let questionStates = [];    // parallel: {answered, selectedKey, flagged, checked}
         let currentIdx = 0, score = 0;
@@ -2008,9 +2015,26 @@
         // ─── LOAD ─────────────────────────────────────────────────────────────────────
         Promise.all([
             fetch('questions.json').then(r => r.json()).catch(() => []),
-            fetch('daily_questions.json').then(r => r.json()).catch(() => null)
-        ]).then(([ada, daily]) => {
+            fetch('daily_questions.json').then(r => r.json()).catch(() => null),
+            fetch('Clara_questions.json').then(r => r.json()).catch(() => null)
+        ]).then(([ada, daily, clara]) => {
             adaData = ada || []; dailyData = daily || null;
+            // Clara_questions.json is a flat list under "extracted_questions".
+            // Normalize it into the same {sections:[{name, subsections:[{name, questions[]}]}]} shape.
+            if (clara && clara.extracted_questions) {
+                const bySection = {};
+                clara.extracted_questions.forEach(q => {
+                    const sec = q.section || 'Other';
+                    if (!bySection[sec]) bySection[sec] = [];
+                    bySection[sec].push(q);
+                });
+                claraData = {
+                    sections: Object.entries(bySection).map(([name, questions]) => ({
+                        name,
+                        subsections: [{ name, questions }]
+                    }))
+                };
+            }
             renderHomeForSource('ada');
         });
 
@@ -2019,6 +2043,7 @@
             activeSource = src;
             document.getElementById('src-ada').classList.toggle('active', src === 'ada');
             document.getElementById('src-daily').classList.toggle('active', src === 'daily');
+            document.getElementById('src-clara').classList.toggle('active', src === 'clara');
             selectedSections.clear();
             renderHomeForSource(src);
         }
@@ -2029,6 +2054,9 @@
             if (src === 'ada') {
                 if (!adaData.length) { grid.innerHTML = '<p style="color:var(--red);font-size:.875rem;">⚠ Could not load questions.json</p>'; }
                 else adaData.forEach(sec => buildAdaCard(grid, sec));
+            } else if (src === 'clara') {
+                if (!claraData || !claraData.sections) { grid.innerHTML = '<p style="color:var(--red);font-size:.875rem;">⚠ Could not load Clara_questions.json</p>'; }
+                else claraData.sections.forEach(sec => buildClaraCard(grid, sec));
             } else {
                 if (!dailyData || !dailyData.sections) { grid.innerHTML = '<p style="color:var(--red);font-size:.875rem;">⚠ Could not load daily_questions.json</p>'; }
                 else dailyData.sections.forEach(sec => buildDailyCard(grid, sec));
@@ -2051,6 +2079,13 @@
             card.addEventListener('click', () => toggleSection(card, sec.name)); grid.appendChild(card);
         }
 
+        function buildClaraCard(grid, sec) {
+            const count = sec.subsections.reduce((n, s) => n + s.questions.length, 0);
+            const card = document.createElement('div'); card.className = 'section-card'; card.dataset.section = sec.name;
+            card.innerHTML = `<div class="section-card-top"><div class="section-icon" style="background:${COLORS[sec.name] || 'rgba(245,101,101,.12)'}">${ICONS[sec.name] || '📝'}</div><div class="check-circle"></div></div><h3>${sec.name}</h3><span>${count} missed questions</span>`;
+            card.addEventListener('click', () => toggleSection(card, sec.name)); grid.appendChild(card);
+        }
+
         function toggleSection(card, name) {
             if (selectedSections.has(name)) { selectedSections.delete(name); card.classList.remove('selected'); }
             else { selectedSections.add(name); card.classList.add('selected'); }
@@ -2061,6 +2096,10 @@
             let pool = [];
             if (activeSource === 'ada') {
                 adaData.forEach(sec => { if (selectedSections.has(sec.section)) sec.questions.forEach(q => pool.push({ ...q, section: sec.section, subsection: null })); });
+            } else if (activeSource === 'clara') {
+                if (claraData && claraData.sections) {
+                    claraData.sections.forEach(sec => { if (selectedSections.has(sec.name)) sec.subsections.forEach(sub => sub.questions.forEach(q => pool.push({ ...q, section: sec.name, subsection: null }))); });
+                }
             } else if (dailyData && dailyData.sections) {
                 dailyData.sections.forEach(sec => { if (selectedSections.has(sec.name)) sec.subsections.forEach(sub => sub.questions.filter(q => q.question !== 'XXXXXX' && q.correctAnswer !== 'CHANGEME').forEach(q => pool.push({ ...q, section: sec.name, subsection: sub.name }))); });
             }
@@ -2645,7 +2684,7 @@
                 : secondsElapsed;
             const m = Math.floor(totalSeconds / 60), s = totalSeconds % 60;
 
-            const label = activeSource === 'daily' ? 'Daily Questions · ' + [...selectedSections].join(' · ') : '2006 ADA · ' + [...selectedSections].join(' · ');
+            const label = activeSource === 'daily' ? 'Daily Questions · ' + [...selectedSections].join(' · ') : activeSource === 'clara' ? "Clara's Review · " + [...selectedSections].join(' · ') : '2006 ADA · ' + [...selectedSections].join(' · ');
             document.getElementById('results-section-label').textContent = label;
             document.getElementById('ring-pct').textContent = pct + '%';
             document.getElementById('res-correct').textContent = score;

@@ -1,0 +1,1054 @@
+{
+  "extracted_questions": [
+    {
+      "id": 13,
+      "section": "Survey of the Natural Sciences",
+      "question": "A plant kept in the dark will not be able to produce glucose because light is necessary",
+      "choices": {
+        "A": "for the oxidation of glucose.",
+        "B": "to excite electrons in the CO2 molecules.",
+        "C": "for activating enzymes necessary for converting CO2 to glucose.",
+        "D": "for sufficient ATP and reduced NADP to be available to synthesize glucose from CO2",
+        "E": "for glucose phosphorylation."
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 14,
+      "section": "Survey of the Natural Sciences",
+      "question": "The first law of thermodynamics implies that living organisms cannot create their own energy but can only convert one form of energy into another. What, then, is the ultimate source of energy for most living organisms?",
+      "choices": {
+        "A": "Chemical energy from the glucose molecule made by plants during photosynthesis",
+        "B": "The chemical energy released by the numerous hydrolytic reactions in a cell",
+        "C": "Heat energy from the sun",
+        "D": "Light energy from the sun",
+        "E": "ATP made in the mitochondria of both plants and animals"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 16,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following pairs of structures have similarity of function?",
+      "choices": {
+        "A": "Thyroid gland and sympathetic nervous system",
+        "B": "Adrenal cortex and sympathetic nervous system",
+        "C": "Adrenal cortex and parasympathetic nervous system",
+        "D": "Adrenal medulla and parasympathetic nervous system",
+        "E": "Adrenal medulla and sympathetic nervous system"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 21,
+      "section": "Survey of the Natural Sciences",
+      "question": "The muscle cells of the human heart are primarily nourished by",
+      "choices": {
+        "A": "blood within the four chambers of the heart.",
+        "B": "fluid in the pericardial cavity.",
+        "C": "the lymphatic system.",
+        "D": "blood delivered by the coronary arteries.",
+        "E": "blood delivered by the ductus arteriosus."
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 29,
+      "section": "Survey of the Natural Sciences",
+      "question": "A diploid cell (2N=20) has how many tetrads at metaphase 1?",
+      "choices": {
+        "A": "0",
+        "B": "10",
+        "C": "20",
+        "D": "40",
+        "E": "80"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 35,
+      "section": "Survey of the Natural Sciences",
+      "question": "Several generations of 2 species of paramecia are observed reproducing at the same rate. It is noted that population A has fewer phenotypes over time than population B. This most likely would occur if population B",
+      "choices": {
+        "A": "has more surviving offspring.",
+        "B": "has fewer individuals with recessive alleles.",
+        "C": "reproduces asexually.",
+        "D": "reproduces sexually.",
+        "E": "has individuals with greater fitness."
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 36,
+      "section": "Survey of the Natural Sciences",
+      "question": "Gastrulation involves the",
+      "choices": {
+        "A": "formation of the blastocoel.",
+        "B": "formation of germ layers.",
+        "C": "loss of the blastopore.",
+        "D": "formation of the blastula.",
+        "E": "final differentiation of the stomach."
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 37,
+      "section": "Survey of the Natural Sciences",
+      "question": "Of the germ layers comprising the early human embryo, which one forms most of the central nervous system?",
+      "choices": {
+        "A": "Ectoderm",
+        "B": "Mesoderm",
+        "C": "Endoderm",
+        "D": "Notochord",
+        "E": "Dermis"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 41,
+      "section": "Survey of the Natural Sciences",
+      "question": "A sample of gold weighing 38.6 g was added to a graduated cylinder containing 23.00 mL of water. The volume of the water plus the gold was 25.00 mL. What is the density of gold?",
+      "choices": {
+        "A": "0.0518 g·mL^-^1",
+        "B": "2.00 g·mL^-^1",
+        "C": "19.3 g·mL^-^1",
+        "D": "38.6 g·mL^-^1",
+        "E": "1540 g·mL^-^1"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 42,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following solutions will be the best conductor of electricity?",
+      "choices": {
+        "A": "Glucose in water",
+        "B": "Glucose in ethanol",
+        "C": "Table salt in water",
+        "D": "Table salt in ethanol"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 43,
+      "section": "Survey of the Natural Sciences",
+      "question": "For the reaction between A and B to form C it is found that when one combines 0.6 moles of A with 0.6 moles of B, all of the B reacts, 0.2 moles of A remain UNREACTED and 0.4 moles of C are produced. What is the balanced equation for this reaction?",
+      "choices": {
+        "A": "A + 2B -> C",
+        "B": "A + 3B -> 2C",
+        "C": "3A + 3B -> 2C",
+        "D": "3A + 2B -> 3C",
+        "E": "2A + 3B -> 2C"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 49,
+      "section": "Survey of the Natural Sciences",
+      "question": "The molar volume of copper (63.5 g·mol-1) at 25°C is 7.09 cm3·mol-1. Which of the following is the density of copper at 25°C in g·cm3?",
+      "choices": {
+        "A": "(63.5)/(7.09)",
+        "B": "(63.5)(7.09)",
+        "C": "(7.09)/(63.5)",
+        "D": "7.09",
+        "E": "((63.5)/(7.09))(25)"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 53,
+      "section": "Survey of the Natural Sciences",
+      "question": "Chlorine bleaches are solutions that contain approximately 5% NaClO. These solutions are",
+      "choices": {
+        "A": "slightly acidic.",
+        "B": "strongly acidic.",
+        "C": "neutral.",
+        "D": "slightly basic.",
+        "E": "strongly basic."
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 54,
+      "section": "Survey of the Natural Sciences",
+      "question": "What is the hydroxide ion concentration, [OH-], of a solution having a pH of 5.0?",
+      "choices": {
+        "A": "5 x 10^-5 M",
+        "B": "5 x 10 M",
+        "C": "1 x 10^-5 M",
+        "D": "1 x 10^-9 M",
+        "E": "5 x 10^-9 M"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 55,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following processes is classified as sublimation?",
+      "choices": {
+        "A": "H2O(l) -> H2(g) + (1/2)O2(g)",
+        "B": "H2O(g) -> H2O(l)",
+        "C": "H2O(s) -> H2(g) + (1/2)O2(g)",
+        "D": "H2O(g) -> H2O(s)",
+        "E": "H2O(s) -> H2O(g)"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 56,
+      "section": "Survey of the Natural Sciences",
+      "question": "For the reaction: ",
+      "image": "ADA_Images/Q56.png",
+      "choices": {
+        "A": "The addition of NH3 decreases the solubility of AgCl.",
+        "B": "AgCl is more soluble in aqueous NH3 than in water.",
+        "C": "AgCl is more soluble in aqueous solution containing Cl- than in water.",
+        "D": "AgCl is less soluble in aqueous NH3 than in water."
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 58,
+      "section": "Survey of the Natural Sciences",
+      "question": "What would be the heat of formation, ΔHf°, for NO2 gas if one considers the equations for the following reactions where all substances are gases? \n1/2 N2 + 1/2 O2 -> NO      ΔHf=+21.6 kcal\nNO2 -> NO + 1/2 O2      ΔH°=+13.5 kcal",
+      "choices": {
+        "A": "-28.7 kcal",
+        "B": "-8.1 kcal",
+        "C": "35.1 kcal",
+        "D": "28.7 kcal",
+        "E": "8.1 kcal"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 60,
+      "section": "Survey of the Natural Sciences",
+      "question": "Rates of reactions are usually studied by",
+      "choices": {
+        "A": "measuring the concentration of the reactants or products as a function of time.",
+        "B": "calculating the free energy change for the reaction.",
+        "C": "measuring the heat evolved under different conditions.",
+        "D": "measuring the amount of each reactant in the reaction.",
+        "E": "calculating the entropy change for the reaction."
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 62,
+      "section": "Survey of the Natural Sciences",
+      "question": "All chemicals should be handled with care. However, extra precautions should be taken when handling",
+      "choices": {
+        "A": "sodium chloride.",
+        "B": "dilute hydrochloric acid.",
+        "C": "sodium metal.",
+        "D": "sodium sulfate.",
+        "E": "calcium carbonate."
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 64,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following represents the CHANGE in oxidation state of nitrogen during the chemical reaction: \n2NO + 3S + 4H2O -> 2HNO3 + 3H2S?",
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 67,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following is the ground state electron configuration for 24/12 Mg 2+?",
+      "choices": {
+        "A": "1s^2 2s^2 2p^6 3s^2",
+        "B": "1s^2 2s^2 2p^6",
+        "C": "1s^2 2s^2 2p^6 3s^2 3p^2",
+        "D": "1s^2 2s^2 2p^4 3s^2",
+        "E": "1s^2 2s^2 2p^6 3s^2 3p^6 3d^4 4s^2"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 68,
+      "section": "Survey of the Natural Sciences",
+      "question": "Antimony (Sb) has a smaller atomic radius than strontium (Sr) because of",
+      "choices": {
+        "A": "increased electron shielding.",
+        "B": "the lanthanide contraction.",
+        "C": "increased metallic character.",
+        "D": "increased nuclear to electron attraction.",
+        "E": "the difference in the number of neutrons in their nucleus."
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 70,
+      "section": "Survey of the Natural Sciences",
+      "question": "In the nuclear reaction:\n14/7 N + 4/2 He -> 17/8 O + X\nThe symbol X represents which of the following?",
+      "choices": {
+        "A": "4/2 He",
+        "B": "1/0 n",
+        "C": "0/-1 e",
+        "D": "0/+1 e",
+        "E": "1/1 H"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 73,
+      "section": "Survey of the Natural Sciences",
+      "question": "It is believed that an unlabeled bottle containing an unknown liquid is either 2-pentanone or 3-pentanone. What is the best methodology to distinguish one compound from the other?",
+      "choices": {
+        "A": "Mass Spectroscopy",
+        "B": "Infrared Spectroscopy",
+        "C": "13C NMR Spectroscopy",
+        "D": "Thin Layer Chromatography",
+        "E": "Melting Point Determination"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 76,
+      "section": "Survey of the Natural Sciences",
+      "question": "Nitration of toluene (Ph-CH3) with HNO3/H2SO4 occurs",
+      "choices": {
+        "A": "faster than nitration of benzene and produces mostly ortho and para products.",
+        "B": "slower than nitration of benzene and produces mostly meta product.",
+        "C": "faster than nitration of benzene and produces mostly meta product.",
+        "D": "slower than nitration of benzene and produces mostly ortho and para products.",
+        "E": "at the same rate as nitration of benzene and produces mostly meta product."
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 82,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which ONE of the following pure liquids would be expected to show extensive intermolecular hydrogen bonding?",
+      "image": "ADA_Images/Q82.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 83,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following compounds is a tertiary (3°) amine?",
+      "image": "ADA_Images/Q83.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 84,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following compounds best fits the 1H NMR spectral data listed below?",
+      "image": "ADA_Images/Q84.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 85,
+      "section": "Survey of the Natural Sciences",
+      "question": "Which of the following will undergo a free radical bromination most rapidly?",
+      "image": "ADA_Images/Q85.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 86,
+      "section": "Survey of the Natural Sciences",
+      "question": "How many π molecular orbitals does pyridine possess?",
+      "image": "ADA_Images/Q86.png",
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 89,
+      "section": "Survey of the Natural Sciences",
+      "question": "The indicated H atom on imidazole is acidic. This can best be explained by stabilization of the conjugate base. Which of the following is the greatest cause of this stabilization?",
+      "image": "ADA_Images/Q89.png",
+      "choices": {
+        "A": "The inductive effect",
+        "B": "Resonance",
+        "C": "Conjugation",
+        "D": "Aromaticity",
+        "E": "Hyperconjugation"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 93,
+      "section": "Survey of the Natural Sciences",
+      "question": "What is the hybridization of a nitrogen atom if it forms two sigma and two pi bonds?",
+      "choices": {
+        "A": "sp",
+        "B": "sp2",
+        "C": "sp3",
+        "D": "sp3d2"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 96,
+      "section": "Survey of the Natural Sciences",
+      "question": "What is the major product of the the following reaction:",
+      "image": "ADA_Images/Q96.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 98,
+      "section": "Survey of the Natural Sciences",
+      "question": "Treatment of benzoic acid with thionyl chloride followed by addition of ethanol gives which of the following as the major product?",
+      "image": "ADA_Images/Q98.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 99,
+      "section": "Survey of the Natural Sciences",
+      "question": "What is the major product (B) of the following reaction sequence:",
+      "image": "ADA_Images/Q99.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 102,
+      "section": "Physics",
+      "question": "The universal gravitational law can be written F=Gm1m2/d^2 Which of the following are the units of the constant G?",
+      "choices": {
+        "A": "kg^2-m^2/Newton",
+        "B": "kg^2/(Newton-m^2)",
+        "C": "1/Newton",
+        "D": "Newton-kg^2-m^2",
+        "E": "Newton-m^2/(kg)^2"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 106,
+      "section": "Physics",
+      "question": "A magnifying glass is constructed when the lens is",
+      "choices": {
+        "A": "converging and the object is located at twice the focal length.",
+        "B": "converging and the object is between the lens and the focal point.",
+        "C": "diverging and the object is at twice the focal length.",
+        "D": "diverging and the object is between the lens and the focal point."
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 107,
+      "section": "Physics",
+      "question": "Which diagram best represents the velocity as function of the time of a ball thrown vertically upward?",
+      "image": "ADA_Images/Physics7.png",
+      "choices": {
+        "A": "Graph A",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D",
+        "E": "Graph E"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 109,
+      "section": "Physics",
+      "question": "The acceleration vector is always",
+      "choices": {
+        "A": "parallel to the displacement vector.",
+        "B": "parallel to the velocity vector.",
+        "C": "parallel to the resultant force vector.",
+        "D": "perpendicular to the velocity vector.",
+        "E": "perpendicular to the resultant force vector."
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 110,
+      "section": "Physics",
+      "question": "A 50-kg girl pulls a 20-kg wagon with a force of 10 Newtons. The wagon accelerates at 2 m/s^2. What is the force, in Newtons, exerted BY the wagon ON the girl?",
+      "choices": {
+        "A": "140",
+        "B": "100",
+        "C": "40",
+        "D": "20",
+        "E": "10"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 112,
+      "section": "Physics",
+      "question": "A satellite of mass 200kg completes a circular orbit of the Earth in 120 minutes. A 400 kg satellite is then put into orbit at the same height above the Earth. Which of the following represents the time, in minutes, for the 400 kg satellite to complete a circular orbit",
+      "choices": {
+        "A": "60",
+        "B": "120",
+        "C": "180",
+        "D": "240",
+        "E": "360"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 113,
+      "section": "Physics",
+      "question": "Atmospheric pressure is very nearly 100 kPa. A sealed container of air at 1 atmospheric pressure has a door 1 m wide and 2 m high. If the atmospheric pressure on the outside of the container is just 1 percent greater than on the inside, then what added force in Newtons is required to open the container door?",
+      "choices": {
+        "A": "100",
+        "B": "200",
+        "C": "2,000",
+        "D": "10,000",
+        "E": "20,000"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 114,
+      "section": "Physics",
+      "question": "An elevator weighing 480 Newtons is supported by a light, vertical cable which exerts a constant force on the elevator, causing the elevator to accelerate upward. Which of the following is the tension, in Newtons, in the cable?",
+      "choices": {
+        "A": "Greater than 480",
+        "B": "Less than 480",
+        "C": "Equal to 480",
+        "D": "Data is insufficient to determine the answer",
+        "E": "0"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 115,
+      "section": "Physics",
+      "question": "A massless rod in the sketch below is free to rotate about an axis through point 0, at the right end of the rod. To maintain equilibrium, which of the following must force F, in Newtons, equal?",
+      "image": "ADA_Images/Physics15.png",
+      "choices": {
+        "A": "20",
+        "B": "40",
+        "C": "60",
+        "D": "100",
+        "E": "120"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 116,
+      "section": "Physics",
+      "question": "A ball is thrown horizontally at 20 m/s from the top of a building and strikes the level ground 50 m from the building. Approximately how many meters high is the roof of the building?",
+      "choices": {
+        "A": "12.5 m",
+        "B": "24.5 m",
+        "C": "31 m",
+        "D": "50 m",
+        "E": "62 m"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 117,
+      "section": "Physics",
+      "question": "A girl exerted 150 Newtons to lift a barbell 2.0 m in 4.0 s. If she did the same thing in 8.0 s, the work done on the barbell by the girl would be",
+      "choices": {
+        "A": "one fourth as great.",
+        "B": "one half as great.",
+        "C": "the same.",
+        "D": "twice as great.",
+        "E": "four times as great."
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 119,
+      "section": "Physics",
+      "question": "If friction is neglected, a 2-kg object that has fallen 10 m.",
+      "choices": {
+        "A": "has gained potential energy.",
+        "B": "has lost kinetic energy.",
+        "C": "will have a constant mechanical energy.",
+        "D": "has lost 20 Joules of potential energy.",
+        "E": "has gained 20 Joules of kinetic energy."
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 120,
+      "section": "Physics",
+      "question": "Which of the following has the largest momentum?",
+      "choices": {
+        "A": "A 30,000-kg railroad car traveling at 1 m/s",
+        "B": "A 200-kg person running at 3 m/s",
+        "C": "A 1-g bee flying at 5 m/s",
+        "D": "A 2,000-kg car traveling at 10 m/s",
+        "E": "A 20-g bullet traveling at 1,000 m/s"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 121,
+      "section": "Physics",
+      "question": "The amplitude of a body undergoing simple harmonic motion is doubled. Which of the following is also doubled?",
+      "choices": {
+        "A": "Maximum speed",
+        "B": "Frequency",
+        "C": "Mass",
+        "D": "Total energy",
+        "E": "Period"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 122,
+      "section": "Physics",
+      "question": "If an 80-cm-long spring requires 10 Newtons to stretch 5 cm, how much force, in Newtons, will be needed to stretch the same spring by 8 cm?",
+      "choices": {
+        "A": "8",
+        "B": "16",
+        "C": "24",
+        "D": "50",
+        "E": "80"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 123,
+      "section": "Physics",
+      "question": "An AM radio station broadcasts at a frequency of 600 kHz. If these waves have a speed of 3 x 10^8 m/s then what is their wavelength in meters?",
+      "choices": {
+        "A": ".0020",
+        "B": "500",
+        "C": "5,000,000",
+        "D": "1.80 x 10^1^1",
+        "E": "1.80 x 10^1^4"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 127,
+      "section": "Physics",
+      "question": "A 600-N force is applied to a safe full of gold which weighs 2000 N's but it does not move. What is the friction force exerted by the floor on the safe?",
+      "choices": {
+        "A": "< 600 N",
+        "B": "600 N",
+        "C": "> 600 N but < 2000 N",
+        "D": "2000 N",
+        "E": "> 2000 N"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 129,
+      "section": "Physics",
+      "question": "A thin lens produces a virtual image which is smaller than the object. It must be that the",
+      "choices": {
+        "A": "object must be inside the focal point of a converging lens.",
+        "B": "object must be outside the focal point of a converging lens.",
+        "C": "lens must be a diverging lens.",
+        "D": "object must be infinitely far from a converging lens.",
+        "E": "object must be far from the optical axis of a converging lens."
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 130,
+      "section": "Physics",
+      "question": "An object initially moving with speed 5 m/s has acceleration -2 m/s^2. Which of the following graphs best represents the object’s velocity as a function of time?",
+      "image": "ADA_Images/Physics30.png",
+      "choices": {
+        "A": "Graph A",
+        "B": "Graph B",
+        "C": "Graph C",
+        "D": "Graph D",
+        "E": "Graph E"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 132,
+      "section": "Physics",
+      "question": "Water boils at 100°C at sea level. At higher pressure, water will boil at (a)",
+      "choices": {
+        "A": "higher temperature.",
+        "B": "lower temperature.",
+        "C": "100°C",
+        "D": "0°C",
+        "E": "273 K"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 133,
+      "section": "Physics",
+      "question": "Which of the following is the cost of lighting a 100-W lamp for 10 hours at $0.10 per kilowatt-hour?",
+      "choices": {
+        "A": "$0.01",
+        "B": "$0.10",
+        "C": "$0.50",
+        "D": "$1.00",
+        "E": "$10.00"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 135,
+      "section": "Physics",
+      "question": "A 12-volt battery with an internal resistance of 1 Ω is connected to a 3 Ω resistor. Which of the following is the current in amperes?",
+      "choices": {
+        "A": "4",
+        "B": "3",
+        "C": "9",
+        "D": "12",
+        "E": "48"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 137,
+      "section": "Physics",
+      "question": "A long straight horizontal wire with a current in it produces a magnetic field that",
+      "choices": {
+        "A": "points radially away from the wire.",
+        "B": "has the same magnitude at all locations.",
+        "C": "points in the same direction above and below the wire.",
+        "D": "at any point is perpendicular to the plane containing that point and the wire.",
+        "E": "points radially toward the wire."
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 138,
+      "section": "Physics",
+      "question": "As red light goes from the air into water at an angle of incidence of 40°, which of the following necessarily remains constant?",
+      "choices": {
+        "A": "Wavelength of the light",
+        "B": "Speed of the light",
+        "C": "Polarization of the light",
+        "D": "Frequency of the light",
+        "E": "Direction of travel of the light"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 139,
+      "section": "Physics",
+      "question": "What is the focal length in cm of a lens that produces an image 30 cm behind it when the object is placed 6 cm in front of it?",
+      "choices": {
+        "A": "7.5",
+        "B": "36",
+        "C": "5.0",
+        "D": "24",
+        "E": "18.0"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 140,
+      "section": "Physics",
+      "question": "Six identical bulbs are connected to a battery as shown. What is the correct ranking of the brightness of the bulbs?",
+      "image": "ADA_Images/Physics40.png",
+      "choices": {
+        "A": "1=4>5=6>2=3",
+        "B": "5=6>1=4>2=3",
+        "C": "1=4>2=3>5=6",
+        "D": "1=4>5=6=2=3",
+        "E": "1=2=3=4=5=6"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 149,
+      "section": "Quantitative Reasoning",
+      "question": "If an electron has a mass of 9.709 x 10^-^3^1 kg, and a proton has a mass of 1.672 x 10^-^2^7 kg, approximately how many electrons are required to have the same mass as one proton?",
+      "choices": {
+        "A": "150,000",
+        "B": "1,800",
+        "C": "5.4 x 10^4",
+        "D": "5.4 x 10^-^4",
+        "E": "15 x 10^-^5^8"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 152,
+      "section": "Quantitative Reasoning",
+      "question": "What is 1/4 % of 200?",
+      "choices": {
+        "A": "0.05",
+        "B": "0.5",
+        "C": "5",
+        "D": "12.5",
+        "E": "50"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 153,
+      "section": "Quantitative Reasoning",
+      "question": "If 2x+y=7 and x-4y=4, then x equals",
+      "choices": {
+        "A": "-15/9",
+        "B": "-1/9",
+        "C": "7/16",
+        "D": "11/9",
+        "E": "32/9"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 155,
+      "section": "Quantitative Reasoning",
+      "question": "If 1/3 + 5/(x-1) = 8, then what is the value of x?",
+      "choices": {
+        "A": "8/13",
+        "B": "8/5",
+        "C": "38/25",
+        "D": "38/23",
+        "E": "38"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 156,
+      "section": "Quantitative Reasoning",
+      "question": "Which line is perpendicular to the x-axis?",
+      "choices": {
+        "A": "x=3",
+        "B": "y=3",
+        "C": "x=y",
+        "D": "x= y/3",
+        "E": "y= x/3"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 157,
+      "section": "Quantitative Reasoning",
+      "question": "The dental hygienist at a certain office is paid H dollars a week. The dental assistant works 36 hours a week at A dollars per hour, and the receptionist works 40 hours a week and receives R dollars every other week. Which of the following represents the weekly payroll for these three employees??",
+      "choices": {
+        "A": "H/3 + 36A + 40R/3",
+        "B": "H + 36A + R/2",
+        "C": "H/3 + 12A + R/6",
+        "D": "5H + 36 + 20R",
+        "E": "H/3 + 12A + 40R"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 160,
+      "section": "Quantitative Reasoning",
+      "question": "Which of the following is the value of A, if  (50) A/100 = 2A^2?",
+      "choices": {
+        "A": "25",
+        "B": "1",
+        "C": "5/2",
+        "D": "1/4",
+        "E": "1/2"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 164,
+      "section": "Quantitative Reasoning",
+      "question": "A tank can be filled by a pipe in 30 minutes and emptied by another pipe in 50 minutes. How many minutes will it take to fill the tank if both pipes are open?",
+      "choices": {
+        "A": "45",
+        "B": "60",
+        "C": "75",
+        "D": "80",
+        "E": "100"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 165,
+      "section": "Quantitative Reasoning",
+      "question": "If 4/5 (x) = 2/5 (y) then what is equal to y/x?",
+      "choices": {
+        "A": "1/2",
+        "B": "2/5",
+        "C": "25/8",
+        "D": "2",
+        "E": "3"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 166,
+      "section": "Quantitative Reasoning",
+      "question": "Which of the following would NOT result in a straight line?",
+      "choices": {
+        "A": "x = 1/y",
+        "B": "x = 2y+5",
+        "C": "x = (y+6)/2",
+        "D": "x = 5-y",
+        "E": "x = 4(x+3y)"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 167,
+      "section": "Quantitative Reasoning",
+      "question": "If 2/x + 3/5 = 4/3 then what is the value of x?",
+      "choices": {
+        "A": "30/11",
+        "B": "30/29",
+        "C": "11/30",
+        "D": "-11/6",
+        "E": "-5/2"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 169,
+      "section": "Quantitative Reasoning",
+      "question": "If sqrt(x-25) = 7-5 then what is the value of x?",
+      "choices": {
+        "A": "4",
+        "B": "27",
+        "C": "29",
+        "D": "49",
+        "E": "729"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 170,
+      "section": "Quantitative Reasoning",
+      "question": "Two cars start at the same point and travel north and west at the rate of 24 and 32 mph respectively. How far apart are they at the end of 2 hours?",
+      "choices": {
+        "A": "64",
+        "B": "80",
+        "C": "112",
+        "D": "116",
+        "E": "100"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 173,
+      "section": "Quantitative Reasoning",
+      "question": "Evaluate: 3(2)^2 + sqrt(25) - (-2)^3",
+      "choices": {
+        "A": "9",
+        "B": "24",
+        "C": "25",
+        "D": "33",
+        "E": "76"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 174,
+      "section": "Quantitative Reasoning",
+      "question": "Which of the following is the length of the line segment BC, if AB = 14, AD = 5 and angle BAD = 30^o",
+      "image": "ADA_Images/Q_math_34.png",
+      "choices": {
+        "A": "sqrt(221)",
+        "B": "sqrt(171)",
+        "C": "7*sqrt(3)",
+        "D": "7",
+        "E": "9"
+      },
+      "correctAnswer": "D"
+    },
+    {
+      "id": 177,
+      "section": "Quantitative Reasoning",
+      "question": "The numbers (1,2,3,6) have an average (arithmetic mean) of 3 and a variance of 3.5. What is the average (arithmetic mean) and variance of the set of numbers (3,6,9,18)?",
+      "choices": {
+        "A": "9, 31.5",
+        "B": "3, 10.5",
+        "C": "3, 31.5",
+        "D": "6, 7.5",
+        "E": "9, 27.5"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 178,
+      "section": "Quantitative Reasoning",
+      "question": "A ceiling 6 feet by 7 feet can be painted for $52. Find the cost of painting a ceiling 18 feet by 21 feet, all things being equal except the dimensions.",
+      "choices": {
+        "A": "$104",
+        "B": "$126",
+        "C": "$156",
+        "D": "$378",
+        "E": "$468"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 179,
+      "section": "Quantitative Reasoning",
+      "question": "A container in the form of a rectangular solid is 10 feet long, 9 feet wide, and 2 feet deep. The container is filled with a liquid weighing 100 pounds per cubic foot. What is the weight of the liquid in the container in pounds?",
+      "choices": {
+        "A": "90",
+        "B": "180",
+        "C": "1,800",
+        "D": "9,000",
+        "E": "18,000"
+      },
+      "correctAnswer": "E"
+    },
+    {
+      "id": 180,
+      "section": "Quantitative Reasoning",
+      "question": "it takes 5 hours for a qualified typist tocomplete a report. Coffee break begins at10:15 a.m. It is now 9:55 a.m. How much ofthe task can the typist be expected tocomplete by the coffee break?",
+      "choices": {
+        "A": "1/8",
+        "B": "1/25",
+        "C": "1/3",
+        "D": "1/5",
+        "E": "1/15"
+      },
+      "correctAnswer": "E"
+    }
+  ]
+}
